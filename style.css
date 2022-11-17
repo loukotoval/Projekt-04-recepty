@@ -38,3 +38,370 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+/* Verze pro mobilní zařízení */
+
+@media (max-width: 540px) {
+
+.nazev_hlavni{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.nahore{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nazev_maly{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.recepty{
+    display: flex;
+    flex-direction: column;
+}
+
+.hlavni_recept{
+    background: url("images/burger.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.recept2{
+    background: url("images/sushi.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90px;
+    padding: 10px;
+}
+
+.recept3{
+    background: url("images/rajcata.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90px;
+    padding: 10px;
+
+}
+
+.recept4{
+    background: url("images/kure.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90px;
+    padding: 10px;
+}
+
+.recept5{
+    background: url("images/grilovani.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90px;
+    padding: 10px;
+}
+
+}
+
+
+/* Verze pro tablety */
+
+@media (min-width: 541px) and (max-width: 960px) {
+
+    .nazev_hlavni{
+        color: white;
+        font-family: "Raleway", sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .nahore{
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-shadow: 2px 2px 4px #000000;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nazev_maly{
+        color: white;
+        font-family: "Raleway", sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    
+    .recepty{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hlavni_recept{
+        background: url("images/burger.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 0px 2px 0px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .male_recepty{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .recept2{
+        background: url("images/sushi.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 1px 2px 0px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        min-height: 150px;
+        padding: 20px;
+    }
+    
+    .recept3{
+        background: url("images/rajcata.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 3;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        min-height: 150px;
+        padding: 20px;
+    
+    }
+    
+    .recept4{
+        background: url("images/kure.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 0px 2px 1px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 2;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        min-height: 150px;
+        padding: 20px;
+    }
+    
+    .recept5{
+        background: url("images/grilovani.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 0px 0px 1px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 4;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        min-height: 150px;
+        padding: 20px;
+    }
+    
+    }
+
+
+    /* Verze pro počítač */
+
+@media (min-width: 961px) {
+
+    .nazev_hlavni{
+        color: white;
+        font-family: "Raleway", sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .nahore{
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-shadow: 2px 2px 4px #000000;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nazev_maly{
+        color: white;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    
+    .recepty{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .hlavni_recept{
+        background: url("images/burger.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 400px;
+        padding: 20px;
+    }
+
+    .male_recepty{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .recept2{
+        background: url("images/sushi.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 1px 1px 1px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .recept3{
+        background: url("images/rajcata.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 1px 1px 0px 1px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 3;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+        width: 50%;
+        padding: 20px;
+    
+    }
+    
+    .recept4{
+        background: url("images/kure.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 0px 0px 1px 1px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 2;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .recept5{
+        background: url("images/grilovani.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-width: 1px 0px 1px 1px;
+        border-style: solid;
+        border-color: white;
+        display: flex;
+        order: 4;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    }
